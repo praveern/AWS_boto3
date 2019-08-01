@@ -1,7 +1,8 @@
 """
-This script is for opening an EC2 instance and uploading some documents to S3 as a new bucket.
-It will also eventually close the EC2 instance. There will be a function to restart it if needed.
-
+This script is for creating new S3 buckets and add images on one of them.
+It creates a Lambda function that is triggered by any new image addition to the S3 bucket.
+The function then creates a thumbnail from the image in the original bucket and stores the
+result in the other S3 bucket.
 """
 
 import os
