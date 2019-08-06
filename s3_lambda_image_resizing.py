@@ -9,6 +9,8 @@ import os
 import sys
 import boto3
 import random
+import uuid
+from PIL import Image
 
 sys.path.append(os.getcwd())
 
@@ -22,7 +24,13 @@ class CreateThumbnail:
         if not os.path.exists(self.__ZIPS_LOCATION):
             os.makedirs(self.__ZIPS_LOCATION)
 
+    # Image resize
+    def img_resize(self):
+        pass
+
     # Lambda Handler
+    def create_thumbnail_handler(self):
+        pass
 
     # Lambda Trigger setup (with SNS/CloudWatch)
 
