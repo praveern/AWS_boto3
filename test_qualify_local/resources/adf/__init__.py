@@ -1,0 +1,1 @@
+from test_qualify_local.resources.adf.resource import DemoAzureDataFactory

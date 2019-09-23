@@ -1,0 +1,4 @@
+{"DemoRDS": ["aws_db_instance", "AWS::RDS::DBInstance"],
+  "DemoAzureSQL": ["Microsoft.Sql/servers/databases", "azurerm_sql_database"], 
+  "DemoEC2": ["aws_instance", "AWS::EC2::Instance"], 
+  "DemoAzureDataFactory": ["Microsoft.DataFactory/factories", "azurerm_data_factory"]}
